@@ -1,0 +1,42 @@
+# Local Kaggle push metadata (copy from kernel-metadata.example.json)
+kernel-metadata.json
+
+# Credentials
+.env
+.env.*
+.kaggle/
+kaggle.json
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+access_token*
+kaggle_token*
+kaggle-token*
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Weights, datasets and run outputs
+/models/
+/weights/
+/checkpoints/
+/runs/
+/outputs/
+/server_recording/
+*.safetensors
+*.pt
+*.pth
+*.gguf
+*.log
+/diagnostics.html
+/submission.parquet
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
